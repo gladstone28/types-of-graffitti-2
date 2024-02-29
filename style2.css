@@ -1,0 +1,140 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Updated font */
+    background-color: #f7caca;
+    /* Brighter background for the body */
+    color: #2a3a3e;
+    /* Dark gray for text for improved readability */
+}
+
+.navbar {
+    background-color: #6c83ba;
+    /* Darker shade for contrast */
+    overflow: hidden;
+    padding: 10px 0;
+    /* Adjusted padding for a slimmer nav bar */
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.nav-logo {
+    color: #61dafb;
+    /* Bright accent color for the logo for a pop of color */
+    font-size: 24px;
+    /* Slightly larger font size for the logo */
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    /* Changed to inline-block for better spacing */
+}
+
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    /* Adjusted padding for a tighter nav item */
+    font-size: 18px;
+    /* Increased font size for better readability */
+}
+
+.nav-item a:hover {
+    background-color: #61dafb;
+    /* Use the accent color for hover state */
+    color: #20232a;
+}
+
+
+/* Introduction Section Styles */
+
+.introduction {
+    background-color: #f7f7f7;
+    /* Softer shade of grey for the intro section */
+    padding: 60px 20px;
+    /* More vertical padding for a spacious look */
+    text-align: center;
+}
+
+.introduction h1 {
+    color: #20232a;
+    font-size: 32px;
+    /* Larger font size for the title */
+    margin-bottom: 30px;
+    /* Increased margin for more space below the title */
+}
+
+.introduction p {
+    color: #4a4a4a;
+    /* Slightly darker grey for the paragraph */
+    font-size: 18px;
+    /* Larger font size for the paragraph */
+    line-height: 1.8;
+    /* Increased line height for better readability */
+    max-width: 800px;
+    /* Max width for better text alignment */
+    margin: auto;
+    /* Auto margins for horizontal centering */
+}
+
+
+/* Gallery Styles */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Softer shadow for a subtle effect */
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    /* White background for each image container */
+    border-radius: 8px;
+    /* Rounded corners for a modern look */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    /* Slightly rounded corners for the images */
+}
+
+.image-name {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .image-container {
+        flex-basis: calc(50% - 20px);
+    }
+    .nav-menu,
+    .nav-logo {
+        text-align: center;
+    }
+    .nav-item {
+        display: block;
+        margin: 10px 0;
+        /* Added margin for vertical spacing on mobile */
+    }
+}

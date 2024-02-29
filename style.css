@@ -92,7 +92,7 @@ html {
 /* Introduction Section Styles */
 
 .introduction {
-    background-color: #f0f0f0;
+    background-color: #a4a1d7;
     /* Light grey background for contrast */
     padding: 40px 20px;
     text-align: center;
@@ -104,7 +104,7 @@ html {
 }
 
 .introduction h1 {
-    color: #333;
+    color: #cfe18b;
     font-size: 28px;
     margin-bottom: 20px;
 }
