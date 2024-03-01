@@ -1,0 +1,38 @@
+.tag-introduction {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #eee;
+}
+
+.tag-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tag-item {
+    width: calc(50% - 20px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.tag-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.tag-info h2, .tag-info p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .tag-item {
+        width: 100%;
+    }
+}
