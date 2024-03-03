@@ -1,0 +1,71 @@
+.vandalism-introduction {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+}
+
+.vandalism-examples {
+    padding: 20px;
+}
+
+.vandalism-case {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.vandalism-case h3 {
+    color: #333;
+}
+
+.vandalism-case p {
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .vandalism-case {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vandalism-case {
+        padding: 10px;
+    }
+}
+
+.vandalism-case img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    /* Optional: Adds rounded corners to the images */
+}
+
+.vandalism-case {
+    text-align: center;
+    /* Centers the content within each case study */
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.vandalism-case img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    /* Adds margin to the top and bottom, auto centers it horizontally */
+    display: block;
+    /* Ensures the image is treated as a block-level element, enabling proper centering */
+}
+
+.vandalism-case h3,
+.vandalism-case p {
+    text-align: left;
+    /* Ensures text within case studies is aligned to the left for readability */
+}
