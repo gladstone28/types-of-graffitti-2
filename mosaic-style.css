@@ -1,0 +1,45 @@
+.mosaic-introduction {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fafafa;
+}
+
+.mosaic-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.mosaic-item {
+    width: calc(33.333% - 40px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.mosaic-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.mosaic-info h2, .mosaic-info p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .mosaic-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .mosaic-item {
+        width: 100%;
+    }
+}
