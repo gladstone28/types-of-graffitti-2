@@ -1,0 +1,45 @@
+.installation-introduction {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #eaeaea;
+}
+
+.installation-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.installation-item {
+    width: calc(33.333% - 40px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.installation-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.installation-info h2, .installation-info p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .installation-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .installation-item {
+        width: 100%;
+    }
+}
