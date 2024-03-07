@@ -1,0 +1,44 @@
+.guerilla-art-introduction {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e0e0e0;
+}
+
+.guerilla-art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.guerilla-art-item {
+    width: calc(33.333% - 40px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.guerilla-art-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.guerilla-art-info h2, .guerilla-art-info p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .guerilla-art-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .guerilla-art-item {
+        width: 100%;
+    }
+}
