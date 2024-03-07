@@ -1,5 +1,5 @@
 .paste-up-introduction {
-    text-align: center;
+    text-align: left;
     padding: 50px 20px;
     background-color: #fafafa;
 }
@@ -14,7 +14,7 @@
 
 .paste-up-item {
     width: calc(33.333% - 40px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     padding: 20px;
     background-color: #fff;
@@ -28,7 +28,8 @@
     border-radius: 5px;
 }
 
-.paste-up-info h2, .paste-up-info p {
+.paste-up-info h2,
+.paste-up-info p {
     margin: 10px 0;
 }
 

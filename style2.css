@@ -65,7 +65,7 @@ html {
     /* Softer shade of grey for the intro section */
     padding: 60px 20px;
     /* More vertical padding for a spacious look */
-    text-align: center;
+    text-align: left;
 }
 
 .introduction h1 {
