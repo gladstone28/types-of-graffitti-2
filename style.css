@@ -114,3 +114,41 @@ html {
     font-size: 16px;
     line-height: 1.6;
 }
+
+p {
+    font-family: 'Arial', sans-serif;
+    /* Use a web-safe font or import a custom one */
+    font-size: 16px;
+    /* Adjust the size as needed */
+    line-height: 1.6;
+    /* This improves readability by increasing space between lines */
+    color: #333;
+    /* A dark grey that's softer than black */
+    text-align: justify;
+    /* Justifies the text for a cleaner look, or use 'left' for a classic alignment */
+    margin-bottom: 20px;
+    /* Adds space below paragraphs to separate them from the following content */
+    padding: 0 10px;
+    /* Adds some padding on the sides if needed */
+    max-width: 800px;
+    /* Limits the width of paragraphs to improve readability */
+    margin-left: auto;
+    /* These two lines center the paragraph if 'max-width' is used */
+    margin-right: auto;
+}
+
+
+/* Optional: Add a drop shadow to give depth to your text (remove if it doesn't fit your design) */
+
+p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Optional: First paragraph of each section could be styled differently to stand out */
+
+section p:first-of-type {
+    font-weight: bold;
+    color: #555;
+    /* Slightly darker to draw attention */
+}
