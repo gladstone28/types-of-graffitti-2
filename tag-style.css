@@ -14,7 +14,7 @@
 
 .tag-item {
     width: calc(50% - 20px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     padding: 20px;
     background-color: #fff;
@@ -27,12 +27,72 @@
     margin-bottom: 20px;
 }
 
-.tag-info h2, .tag-info p {
+.tag-info h2,
+.tag-info p {
     margin: 5px 0;
 }
 
 @media (max-width: 768px) {
     .tag-item {
         width: 100%;
+    }
+}
+
+
+/* Update or add to tag-style.css */
+
+.tag-introduction {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+}
+
+.tag-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.tag-item {
+    display: flex;
+    flex-direction: row;
+    /* Change layout to horizontal */
+    align-items: center;
+    /* Align items vertically at the center */
+    gap: 20px;
+    /* Add some space between the image and the description */
+    max-width: 800px;
+    /* Adjust based on your preference */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.tag-item img {
+    width: auto;
+    /* Adjust based on your preference */
+    max-width: 40%;
+    /* Adjust based on your preference */
+    height: auto;
+    border-radius: 5px;
+}
+
+.tag-info {
+    flex: 1;
+    /* Ensure the text takes up the remaining space */
+}
+
+@media (max-width: 768px) {
+    .tag-item {
+        flex-direction: column;
+        /* Switch back to vertical layout for smaller screens */
+        text-align: center;
+    }
+    .tag-item img {
+        max-width: 100%;
+        /* Full width on smaller screens */
     }
 }
